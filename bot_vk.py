@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен ВК (получить на https://vkhost.github.io/)
-VK_TOKEN = "vk1.a.SwHJLz7p_-bT5NegVnK1lmcxdlrnJjR38Yz19-Ra7YVxMjEXrvT8oPlbOHCD5TsmO51LaXkD_MtBpsdqeO387JvaZv1xoBmmsEhGs55rSpBMKwvnobkTtu1ishmiUbKgUxqEbU5kdPukRZIVtKZj3J_q6bdiCJypVHmT2Uwy9nIi1Dq4QtV8Lt4gmRx3iKraGTrrAk7E7fkhjAGu-M9PSg"  # <--- ВСТАВЬТЕ СВОЙ ТОКЕН!
+VK_TOKEN = "vk1.a.SwHJLz7p_-bT5NegVnK1lmcxdlrnJjR38Yz19-Ra7YVxMjEXrvT8oPlbOHCD5TsmO51LaXkD_MtBpsdqeO387JvaZv1xoBmmsEhGs55rSpBMKwvnobkTtu1ishmiUbKgUxqEbU5kdPukRZIVtKZj3J_q6bdiCJypVHmT2Uwy9nIi1Dq4QtV8Lt4gmRx3iKraGTrrAk7E7fkhjAGu-M9PSgwq"  # <--- ВСТАВЬТЕ СВОЙ ТОКЕН!
 
 # ID группы ВК (отрицательное число)
 GROUP_ID = -236121175  # <--- ВСТАВЬТЕ ID СВОЕЙ ГРУППЫ!
