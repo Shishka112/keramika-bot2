@@ -23,10 +23,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ТОКЕН - ВСТАВЬТЕ СВОЙ!
-TOKEN = "8579975461:AAGuXTe7W-EVTqWg19e0miG1Xa99r4d2QGk"
+TOKEN = "238579975461:AAGuXTe7W-EVTqWg19e0miG1Xa99r4d2QGk"
 
 # ID администратора (ваш Telegram ID)
-ADMIN_ID = "810412477"
+ADMIN_ID = "81041244277"
 ADMIN_USERNAME = "@sergeynnn03"
 
 # Состояния для ConversationHandler
