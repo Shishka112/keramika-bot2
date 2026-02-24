@@ -1,0 +1,46 @@
+ИНСТРУКЦИЯ ПО НАСТРОЙКЕ GOOGLE CALENDAR
+===========================================
+
+1. Перейдите в Google Cloud Console:
+   https://console.cloud.google.com/
+
+2. Создайте новый проект:
+   - Нажмите на выпадающий список проектов вверху
+   - Нажмите "НОВЫЙ ПРОЕКТ"
+   - Назовите проект, например "Keramika Bot"
+   - Нажмите "СОЗДАТЬ"
+
+3. Включите Google Calendar API:
+   - В меню слева выберите "APIs & Services" -> "Library"
+   - Найдите "Google Calendar API"
+   - Нажмите "ENABLE"
+
+4. Создайте credentials:
+   - В меню слева выберите "APIs & Services" -> "Credentials"
+   - Нажмите "+ CREATE CREDENTIALS" -> "OAuth client ID"
+   - Выберите "Desktop application"
+   - Назовите, например "Keramika Bot Client"
+   - Нажмите "CREATE"
+
+5. Скачайте файл:
+   - После создания нажмите на иконку скачивания (⬇️)
+   - Скачайте файл и переименуйте его в "credentials.json"
+   - Поместите файл в папку с ботом
+
+6. Настройте экран согласия:
+   - В меню слева выберите "APIs & Services" -> "OAuth consent screen"
+   - Выберите "External" и нажмите "CREATE"
+   - Заполните обязательные поля (App name, User support email, Developer contact)
+   - Нажмите "SAVE AND CONTINUE"
+   - В разделе "Scopes" нажмите "ADD OR REMOVE SCOPES"
+   - Добавьте "Google Calendar API" скоупы
+   - Нажмите "UPDATE" и "SAVE AND CONTINUE"
+   - В разделе "Test users" добавьте свой Google аккаунт
+
+7. Запустите бота:
+   - При первом запуске откроется браузер для авторизации
+   - Войдите в свой Google аккаунт
+   - Разрешите доступ
+   - После этого будет создан файл token.pickle
+
+ВАЖНО: Файлы credentials.json и token.pickle НЕЛЬЗЯ удалять!
